@@ -11,22 +11,16 @@
 }
 
 body {
-    background-color: black;
+    height: 100vh;
+    background-image: url('imagens/espaco.jpg');
+    background-size: 100%;
 }
 
-main {
-    position: relative;
-}
-
-main div {
-    position: absolute;
-}
-
-img.space {
-    margin: -10px auto;
-    width : 100%;
-}
-
-img.astronaut {
-    
+div {
+    height: 100vh;
+    background-image: url('imagens/astronauta.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center center;
+    back
 }
