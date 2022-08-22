@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header > nav.sidebar{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #AC6F3C;
+    text-align: center;
+    height: 450px;
+    width: 200px;
+    border-radius: 4px;
+}

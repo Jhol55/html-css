@@ -1,0 +1,5 @@
+<picture>
+	<source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="A imagem flexível funciona">
+</picture>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    position: relative;
+}
+
+main div {
+    position: absolute;
+}
+
+img.space {
+    margin: -10px auto;
+    width : 100%;
+}
+
+img.astronaut {
+    
+}

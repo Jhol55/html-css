@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1#titulo-site{
+    color: brown;
+    text-align: center;
+}
+
+.titulo{
+    color: blue;
+}
+
+p{
+    text-align: justify;
+}
+
+div > p.hide{
+    display: none;
+}
+
+div:hover > p.hide{
+    display: block;   
+}
+
+div > p.hide:hover > a{
+    background-color: darkgray;
+}

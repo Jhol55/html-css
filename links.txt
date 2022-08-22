@@ -1,0 +1,5 @@
+favicon.io
+unplash
+https://www.iana.org/assignments/media-types/media-types.xhtml
+handbrake - open source video transposer
+paletton
