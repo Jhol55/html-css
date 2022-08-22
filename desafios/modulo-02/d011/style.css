@@ -1,13 +1,8 @@
 @charset "UTF-8";
 
-/* Reset */
 * {
     margin: 0px;
-    padding: 0px;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    font-size: 100%;
+
 }
 
 body {
