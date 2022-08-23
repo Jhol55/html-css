@@ -4,21 +4,28 @@
 * {
     padding: 0px;
     margin: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
+body {
+    overflow-x: hidden
+}
+
 header {
     background-color: black;
     color: white;
-    padding: 60px;
+    padding: 60px 0px;
     text-align: center;
-    font-size: 3em;
+    font-size: 8vmin;
 }
 
 h1 {
     font-family: 'Passion One', cursive;
-    font-weight: bold;
 }
 
 h2 {
@@ -26,26 +33,29 @@ h2 {
     padding: 20px;
 }
 
-
 pre {
     font-family: 'Sriracha', cursive;
-    width: 100vh;
-    font-size: 7vmin;
-    margin: 0px 30px;
-    line-height: 80px;
+    width: 100%;
+    font-size: 6vmin;
+    padding-left: 20px;
+    line-height: 14vmin;
 }
 
-pre.box {
-    height: 100vh;
+pre.img {
+    height: 100%;
+    width: 100vh;
     background-color: rgba(0, 0, 0, 0.295);
     color: white;
 }
 
 div {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
     background-position: center center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 div.bg1 {
