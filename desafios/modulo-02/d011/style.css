@@ -2,20 +2,18 @@
 
 * {
     margin: 0px;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 body {
-    height: 100vh;
     background-image: url('imagens/espaco.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 div {
-    height: 100vh;
     background-image: url('imagens/astronauta.png');
-    background-repeat: no-repeat;
     background-size: 25%;
     background-position: center center;
 }
