@@ -8,7 +8,9 @@
 body {
     height: 100vh;
     background-image: url('imagens/espaco.jpg');
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div {
@@ -17,5 +19,4 @@ div {
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: center center;
-    back
 }
