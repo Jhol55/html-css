@@ -47,6 +47,8 @@ pre.img {
 }
 
 div {
+    height: 100%;
+    width: 100%;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
