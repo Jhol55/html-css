@@ -35,23 +35,18 @@ h2 {
 
 pre {
     font-family: 'Sriracha', cursive;
-    width: 100%;
+    max-width: fit-content;
     font-size: 6vmin;
     padding-left: 20px;
     line-height: 14vmin;
 }
 
 pre.img {
-    height: 100%;
-    width: 100vh;
     background-color: rgba(0, 0, 0, 0.295);
     color: white;
 }
 
 div {
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
