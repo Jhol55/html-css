@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -11,10 +10,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
-
-/* body {
-    overflow-x: hidden
-} */
 
 header {
     background-color: black;
