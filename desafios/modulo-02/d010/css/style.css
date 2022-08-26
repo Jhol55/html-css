@@ -28,6 +28,7 @@ img.small {
     display: block;
     max-width: 350px;
     margin: auto;
+    border-radius: 10px;
 }
 
 strong {
