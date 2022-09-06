@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background: url('../imagens/fundo-madeira.jpg');
+    --iphone: url('../imagens/frame-iphone.png');
+}
+
+body {
+    background-color: blue;
+
+}
+
+#phone {
+    background: var(--iphone) no-repeat top center;
+    height:100vh;
+
+
+    
+
+
+}
