@@ -11,15 +11,17 @@
 }
 
 body {
-    background-color: blue;
-
+    background: var(--background) no-repeat top center;
+    background-size: cover;
 }
 
 #phone {
     background: var(--iphone) no-repeat top center;
-    height:100vh;
-
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     
 
 
